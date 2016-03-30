@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="255dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logoshadow" />
+
+    <EditText
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:hint="03229344725" />
+
+
+    <CheckBox
+        android:id="@+id/cbBlockAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect Votes"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="#0f6f6f"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="#ffffff" />
+</LinearLayout>
